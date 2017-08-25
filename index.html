@@ -15,22 +15,28 @@
     
 
     <div id="toprow">
-            <span class="box" id="box3"><img src="images/whitespace.jpeg" alt=""></span>
-            <span class="box" id="box1"><img src="images/whitespace.jpeg" alt=""></span>
-            <span class="box" id="box2"><img src="images/whitespace.jpeg" alt=""></span>
+        <span onclick="imgShift" class="box" id="box1"><img src="images/whitespace.jpeg" alt=""><p>0</p></span>
+        <span onclick="imgShift" class="box" id="box2"><img src="images/whitespace.jpeg" alt=""><p>0</p></span>
+        <span onclick="imgShift" class="box" id="box3"><img src="images/whitespace.jpeg" alt=""><p>0</p></span>
         </div>
         <div id="midrow">
-            <span class="box" id="box4"><img src="images/whitespace.jpeg" alt=""></span>
-            <span class="box" id="box5"><img src="images/whitespace.jpeg" alt=""></span>
-            <span class="box" id="box6"><img src="images/whitespace.jpeg" alt=""></span>
+            <span onclick="imgShift" class="box" id="box4"><img src="images/whitespace.jpeg" alt=""><p>0</p></span>
+            <span onclick="imgShift" class="box" id="box5"><img src="images/whitespace.jpeg" alt=""><p>0</p></span>
+            <span onclick="imgShift" class="box" id="box6"><img src="images/whitespace.jpeg" alt=""><p>0</p></span>
         </div>
         <div id="botrow">
-            <span class="box" id="box7"><img src="images/whitespace.jpeg" alt=""></span>
-            <span class="box" id="box8"><img src="images/whitespace.jpeg" alt=""></span>
-            <span class="box" id="box9"><img src="images/whitespace.jpeg" alt=""></span>
+            <span onclick="imgShift" class="box" id="box7"><img src="images/whitespace.jpeg" alt=""><p>0</p></span>
+            <span onclick="imgShift" class="box" id="box8"><img src="images/whitespace.jpeg" alt=""><p>0</p></span>
+            <span onclick="imgShift" class="box" id="box9"><img src="images/whitespace.jpeg" alt=""><p>0</p></span>
         </div>
 
 
-        <script></script>
+        <script>
+            /*The JS logic will somehow parse for the current box ID (currently stored in the <p> tags), 
+            and use it to rotate through the images when clicked.
+            Later logic can be added to change whos turn it is, and dynamically resize the board with JS,
+            which will require the board being converted into a JS object
+            */
+        </script>
 </body>
 </html>
