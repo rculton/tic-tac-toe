@@ -1,5 +1,5 @@
 div{
-    border: 5px solid pink;
+    
 }
 
 .box{
@@ -11,32 +11,7 @@ div{
     padding: 0px;
     margin: 0px;
 }
-
-
-#box1{
-
-}
-#box2{
-
-}
-#box3{
-
-}
-#box4{
-
-}
-#box5{
-
-}
-#box6{
-
-}
-#box7{
-
-}
-#box8{
-
-}
-#box9{
-
-}
+ img{
+     width: 46px;
+     height: 46px;
+ }
